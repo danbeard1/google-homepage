@@ -1,0 +1,103 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+  
+  .topnav {
+    position: relative;
+  }
+  
+  ul {
+    position: relative;
+  }
+  
+  li {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 15px;
+  }
+  
+  li:hover {
+    text-decoration: underline;
+  }
+  
+  .fleft {
+    float: left;
+    padding: 2%;
+  }
+  
+  .fright {
+    float: right;
+    padding: 2%;
+  }
+  
+  main {
+    text-align: center;
+    padding-top: 12%;
+    position: relative;
+  }
+  
+  #google {
+    position: relative;
+  }
+  
+  .searchbar {
+    margin-top: 15px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(223, 225, 229);
+    width: 484px;
+    height: 40px;
+    transition: box-shadow .1s;
+  }
+  
+  .searchbar:hover {
+    box-shadow: 0 0 8px rgba(33,33,33,.2);
+  }
+  
+  button {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    padding: 0 16px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    border-color: #f2f2f2;
+  }
+  
+  button:hover {
+    border: 1px solid #d0d0d0;
+  }
+  
+  .fnav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #5f6368;
+    background-color: rgb(237, 238, 239);
+  }
+  
+  li.footer {
+    padding-left: 2%;
+  }
+  
+  li.rfooter {
+    float: right;
+    padding-right: 2%;
+  } 
+  
+  li.rfooter, li.footer {
+    position: relative;
+  }
