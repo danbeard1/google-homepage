@@ -10,7 +10,7 @@ html, body {
   }
   
   ul {
-    position: relative;
+    padding: 0;
   }
   
   li {
